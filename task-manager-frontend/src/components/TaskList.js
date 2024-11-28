@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { createTask, deleteTask, updateTask } from '../api';
 import {
     Table,
@@ -64,6 +64,11 @@ const AddTaskDialog = ({ fetchTasks, task, operation, open, handleClose, handleA
             console.error(err.response.data.message);
         }
     };
+
+    useEffect(() => {
+        fetchTasks();
+        // eslint-disable-next-line
+    }, []);
 
     return (
         <Dialog open={open} onClose={handleClose}>

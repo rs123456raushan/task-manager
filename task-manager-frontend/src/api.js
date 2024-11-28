@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'https://task-manager-backend-self.vercel.app/api' });
+const API = axios.create({ baseURL: 'https://task-manager-nine-orpin.vercel.app/api' });
 
 // Attach Authorization header if a token is present
 API.interceptors.request.use((req) => {
