@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Getting Started with Task Manager App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack Task Manager App built using the MERN stack (MongoDB, Express.js, React.js, Node.js) to help users create, organize, and manage their tasks efficiently. The app provides features like task creation, updates, deletion, filtering, sorting, and detailed statistics on task progress.
 
 ## Available Scripts
 
